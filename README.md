@@ -7,7 +7,7 @@ and video from a camera card into a library folder sorted by year and month.
 It checks every copy before it counts, remembers what it has already
 imported, and never overwrites anything.
 
-[Umbraw UI](/Screenshots/Main%20Screen.png)
+![Umbraw UI](/Screenshots/Main%20Screen.png)
 
 ```
 Pictures/EOS T7/
