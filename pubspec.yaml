@@ -1,0 +1,31 @@
+name: umbraw_tray
+description: Umbraw Tray - copy photos and video off a camera card into a YYYY/MM library.
+publish_to: none
+version: 1.1.0+2
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3
+  ffi: ^2.1.0
+  file_selector: ^1.0.3
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.otf
+        - asset: assets/fonts/Inter-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.otf
+          weight: 600
